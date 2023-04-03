@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ComingSoon - Bootstrap Coming Soon Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/ComingSoon/images/Anonymous_emblem.svg.png" rel="icon">
+  <link href="/ComingSoon/images/juryalogoa.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="/ComingSoon/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/ComingSoon/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/ComingSoon/assets/css/style.css" rel="stylesheet">
+
+</head>
+<style>
+  .myBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(255, 0, 0); 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+  }
+  
+  .myBtn:hover {
+    background-color: #666666; 
+  }
+</style>
+<body>
+
+  <header id="header" class="d-flex align-items-center">
+    <button class="myBtn" onclick="history.back()">Go Back</button>
+    <div class="container d-flex flex-column align-items-center">
+
+      <h1>ComingSoon</h1>
+      <h2>Im working hard to improve my website and Im ready to launch after</h2>
+      <div class="countdown d-flex justify-content-center" data-count="2023/12/5">
+        <div>
+          <h3>%d</h3>
+          <h4>Days</h4>
+        </div>
+        <div>
+          <h3>%h</h3>
+          <h4>Hours</h4>
+        </div>
+        <div>
+          <h3>%m</h3>
+          <h4>Minutes</h4>
+        </div>
+        <div>
+          <h3>%s</h3>
+          <h4>Seconds</h4>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <h4>Subscribe now to get the latest updates!</h4>
+        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+          <div class="subscribe-form">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </div>
+          <div class="mt-2">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your notification request was sent. Thank you!</div>
+          </div>
+        </form>
+      </div>
+
+      <div class="social-links text-center">
+        <a href="https://mobile.twitter.com/Masscre_O" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End #header -->
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Massacre</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+         Designed by Massacre Official
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="/ComingSoon/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/ComingSoon/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/ComingSoon/assets/js/main.js"></script>
+
+</body>
+
+</html>
